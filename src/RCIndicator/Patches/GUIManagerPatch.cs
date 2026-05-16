@@ -6,13 +6,13 @@ using UnityEngine;
 
 namespace RCIndicator.Patches
 {
-    [HarmonyPatch]
+    [HarmonyPatch(typeof(GUIManager)]
     internal class GUIManagerPatch
     {
-        [HarmonyPatch(typeof(Item))]
-        [HarmonyPostfix]
+        [HarmonyPatch(nameof(GUIManager.UpdateReticle))]
+        [HarmonyTranspiler]
 
-        private static void RCPatch(ref Color ___reticleColorHighlight)
+        private static void ReticulePatch()
         {
             
         }
