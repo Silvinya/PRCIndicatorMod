@@ -1,0 +1,13 @@
+else if ((bool)Character.localCharacter.data.currentItem && Character.localCharacter.data.currentItem.UIData.isShootable && Character.localCharacter.data.currentItem.CanUsePrimary())
+		{
+			SetReticle(reticleShoot);
+		}
+		
+else if ((bool)Character.localCharacter.data.currentItem && Character.localCharacter.data.currentItem.UIData.isShootable && Character.localCharacter.data.currentItem.CanUsePrimary())
+		{
+			SetReticle(reticleShoot);
+			if ((bool)Character.localCharacter.data.currentItem.IsTargetingPlayer())
+				{
+					
+				}
+		}

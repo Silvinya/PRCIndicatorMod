@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RCIndicator/RCIndicator.csproj" />
+  </Folder>
+</Solution>
