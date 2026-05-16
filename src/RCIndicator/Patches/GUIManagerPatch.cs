@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace RCIndicator.Patches
 {
-    [HarmonyPatch(typeof(GUIManager)]
+    [HarmonyPatch(typeof(GUIManager))]
     internal class GUIManagerPatch
     {
         [HarmonyPatch(nameof(GUIManager.UpdateReticle))]
